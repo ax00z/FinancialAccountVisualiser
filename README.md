@@ -1,5 +1,5 @@
-# FinancialAccountVisualiser
-## Just import the CSV file and see all your financial comings and goings.
+# FinancialAccountVisualizer
+## Visualize all your financial comings and goings. 
 
 Prerequirements:
 - Python 3.x.x (64-bit)
