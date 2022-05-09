@@ -16,7 +16,7 @@ Then:
   python main.py
 ```
 ### How to use:
-1. Install python and the packages mentioned above.
+1. Install python and the packages mentioned in the requirements
 2. Run the code
-3. Select the CSV file you wish to visualize
-4. Done!
+3. Select the CSV file you want to visualize
+4. Done
