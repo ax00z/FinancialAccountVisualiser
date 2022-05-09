@@ -4,18 +4,19 @@
 Prerequirements:
 - Python 3.x.x (64-bit)
 
-Installation:
-```
-pip install pandas
-pip install numpy
-pip install dash
-pip install plotly
-pip install tkinter
+## Installation
 
-```
+At the project directory run:
 
+```python
+  pip install -r requirements.txt
+```
+Then:
+```python
+  python main.py
+```
 ### How to use:
 1. Install python and the packages mentioned above.
 2. Run the code
 3. Select the CSV file you wish to visualize
-4. Voila !
+4. Done!
