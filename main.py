@@ -1,4 +1,5 @@
 import tkinter
+from tkinter import filedialog
 import pandas as panda
 import numpy as np
 import dash
@@ -6,15 +7,14 @@ import webbrowser
 from dash import dcc
 from dash import html
 import plotly.express as express
-from tkinter.filedialog import askopenfilename
 from threading import Timer
-import csv
 
 root = tkinter.Tk()
 root.withdraw()
 
 files = filedialog.askopenfilename()
 data = panda.read_csv(files)
+
 
 
 data['Categories'] = np.where(data['Description 1' or 'Description 2'].str.contains(
