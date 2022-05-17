@@ -19,13 +19,13 @@ data = panda.read_csv('csv49071.csv')
 
 
 data['Categories'] = np.where(data['Description 1' or 'Description 2'].str.contains(
-    'mc|star|tim|sub|pizza|pop', case=False), 'Takeout', "")
+    '', case=False), 'Takeout', "")
 
 data['Categories'] += np.where(data['Description 1' or 'Description 2'].str.contains(
-    'rex', case=False), 'Grocery', "")
+    '', case=False), 'Grocery', "")
 
 data['Categories'] += np.where(data['Description 1' or 'Description 2'].str.contains(
-    'Ry', case=False), 'Education', "")
+    '', case=False), 'Education', "")
 
 data['Categories'] += np.where(data['Description 1' or 'Description 2'].str.match(
     'fee|Fee|FEE', case=False), 'Debit Charges', "")
