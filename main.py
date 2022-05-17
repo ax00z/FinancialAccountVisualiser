@@ -13,9 +13,8 @@ import csv
 root = tkinter.Tk()
 root.withdraw()
 
-#files = filedialog.askopenfilename()
-#data = panda.read_csv(files)
-data = panda.read_csv('csv49071.csv')
+files = filedialog.askopenfilename()
+data = panda.read_csv(files)
 
 
 data['Categories'] = np.where(data['Description 1' or 'Description 2'].str.contains(
