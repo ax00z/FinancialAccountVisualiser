@@ -89,7 +89,7 @@ app.layout = html.Div(style={"backgroundColor": colours["background"]},
         dcc.Graph(figure=Expenses_Breakdown_Chart)         
     ])
 
-port = 8050  # default port
+port = 8050  #default port (CHANGE IF PORT IS BUSY)
 
 
 def open_website():
