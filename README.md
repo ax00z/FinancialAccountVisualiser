@@ -11,10 +11,10 @@ Then:
 ```python
   python main.py
 ```
-### How to use:
+## How to use:
 1. Install python and the packages mentioned in the requirements
 2. Run the code
 3. Select the CSV file you want to visualize
 
-#### Demo:
-![](GIF 2022-05-17 17-37-23.gif)
+## Demo:
+![--](DEMO.gif)
