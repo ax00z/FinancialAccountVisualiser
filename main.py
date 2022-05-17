@@ -56,7 +56,7 @@ app = dash.Dash()
 
 
 colours = {
-    "background": "#0e1c26",
+    "background": "#333333",
     "HeadText": "#f6f6f6",
     "SubText": "#e3e3e3"
 }
