@@ -29,9 +29,6 @@ data['Categories'] += np.where(data['Description 1' or 'Description 2'].str.cont
 data['Categories'] += np.where(data['Description 1' or 'Description 2'].str.match(
     'fee|Fee|FEE', case=False), 'Debit Charges', "")
 
-print(data.values)
-
-
 Total_Monthly_Expenses_Table = data.groupby(
     'Transaction Date')['Amount'].sum().reset_index(name="sum")
 Total_Monthly_Expenses_Chart = express.bar(
