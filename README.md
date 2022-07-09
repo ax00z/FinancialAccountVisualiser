@@ -1,5 +1,5 @@
 # FinancialAccountVisualizer
-## Visualize all your $. 
+## Visualize all your $ 
 Prerequirements:
 - Python 3.x.x (64-bit)
 ## Installation
